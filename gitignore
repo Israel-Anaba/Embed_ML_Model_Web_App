@@ -1,3 +1,4 @@
 /.venv
-/Asset 
-/exported_data
+/exported_comp_folder/
+exported_data.zip
+/Screenshots/
