@@ -100,10 +100,27 @@ warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
 
 
 # Create a FastAPI instance with title and description
+# app = FastAPI(
+#     title="Sepsis Prediction API",
+#     description="An API for predicting sepsis status based on a patients medical record.",
+# )
+# Create a FastAPI instance with title and description
 app = FastAPI(
     title="Sepsis Prediction API",
-    description="An API for predicting sepsis status based on a patients medical record.",
+    description="An API for predicting sepsis status based on a patient's medical record. \
+                This API accepts medical record features as input and provides predictions \
+                for the likelihood of sepsis. The features include:\n\n"
+                "- PRG (Plasma Glucose): Plasma glucose levels.\n"
+                "- PL (Blood Work Result-1): Blood work result 1 (mu U/ml).\n"
+                "- PR (Blood Pressure): Blood pressure in mm Hg.\n"
+                "- SK (Blood Work Result-2): Blood work result 2 (mm).\n"
+                "- TS (Blood Work Result-3): Blood work result 3 (mu U/ml).\n"
+                "- M11 (Body Mass Index): Body mass index (weight in kg / (height in m)^2).\n"
+                "- BD2 (Blood Work Result-4): Blood work result 4 (mu U/ml).\n"
+                "- Age: Patient's age in years.\n\n"
+                "Use this API to assess sepsis risk and make informed medical decisions.",
 )
+
 
 
 # app = FastAPI()
@@ -132,7 +149,12 @@ class SepsisInput(BaseModel):
     TS: float
     M11: float
     BD2: float
-    Age: float
+    Age: int 
+
+# Root endpoint to provide a response at the root URL
+@app.get("/")
+async def read_root():
+    return {"message": "Welcome to the Sepsis Prediction API!"}    
 
 
 # Set endpoint to make sepsis predictions
@@ -162,7 +184,7 @@ async def predict_sepsis(data: SepsisInput):
         features_imputed = numerical_imputer.transform(features_scaled)
 
         # Perform sepsis predictions using your model
-        prediction = int(best_model.predict(features_imputed)[0])  # Convert to int
+        prediction = int(best_model.predict(features_imputed)[0])  
 
         # Map the prediction to "Positive" or "Negative"
         sepsis_result = "Positive Sepsis Status" if prediction == 1 else "Negative Sepsis Status"
@@ -181,10 +203,10 @@ async def predict_sepsis(data: SepsisInput):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Root endpoint to provide a response at the root URL
-@app.get("/")
-async def read_root():
-    return {"message": "Welcome to the Sepsis Prediction API!"}
+# # Root endpoint to provide a response at the root URL
+# @app.get("/")
+# async def read_root():
+#     return {"message": "Welcome to the Sepsis Prediction API!"}
 
 if __name__ == "__main__":
     uvicorn.run("main:app", reload=True)
