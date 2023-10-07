@@ -6,8 +6,7 @@ This project focuses on embedding a Machine Learning model into a web applicatio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg)](https://jupyter.org/)
 [![Hugging Face Deployment](https://img.shields.io/badge/Hugging%20Face-Deployed-brightgreen)](https://huggingface.co/my-awesome-ml-web-app)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/your-github-username/your-repo-name.svg)](https://github.com/your-github-username/your-repo-name/pulls)
-[![Docker Build Status](https://img.shields.io/docker/build/your-docker-username/your-docker-image-name.svg)](https://hub.docker.com/r/your-docker-username/your-docker-image-name)
+
 
 ## 📖 Overview
 
@@ -19,6 +18,19 @@ This project aims to:
 - Deploy the app on Hugging Face for accessibility.
 
 ## 🔍 Preview
+
+Below is a preview showcasing the app's appearance.
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 50%; text-align: center;">
+        <p>Top</p>
+        <img src="Screenshots/Fast1.png" alt="Top" width="90%"/>
+    </div>
+    <div style="flex: 50%; text-align: center;">
+        <p>Buttom</p>
+        <img src="Screenshots/Fast4.png" alt="Down" width="90%"/>
+    </div>
+</div>
 
 ## 🛠️ Technologies Used
 
@@ -73,6 +85,12 @@ docker run -p 80:80 my-awesome-ml-app
 You can deploy this project on Hugging Face for wider accessibility.
 
 ## Author
+
+| Name | Article Link | Github  |
+| ---- | ------------ | -------- |
+|      |              |          |
+|      |              |          |
+|      |              |          |
 
 ## 📝 License
 

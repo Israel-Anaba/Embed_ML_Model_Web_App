@@ -1,0 +1,54 @@
+/* static/style.css */
+
+/* Define styles for the heading */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Style the form */
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Style the labels and input fields */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the prediction result */
+h2 {
+    margin-top: 20px;
+}
+
+p {
+    font-weight: bold;
+    color: #28a745; /* Green color for a positive result */
+}
