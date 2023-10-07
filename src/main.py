@@ -100,11 +100,6 @@ warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
 
 
 # Create a FastAPI instance with title and description
-# app = FastAPI(
-#     title="Sepsis Prediction API",
-#     description="An API for predicting sepsis status based on a patients medical record.",
-# )
-# Create a FastAPI instance with title and description
 app = FastAPI(
     title="Sepsis Prediction API",
     description="An API for predicting sepsis status based on a patient's medical record. \
@@ -197,16 +192,10 @@ async def predict_sepsis(data: SepsisInput):
 
         return response_dict
 
-        # return {"sepsis_prediction": sepsis_result, "features": prediction_dict}
-        
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# # Root endpoint to provide a response at the root URL
-# @app.get("/")
-# async def read_root():
-#     return {"message": "Welcome to the Sepsis Prediction API!"}
 
 if __name__ == "__main__":
     uvicorn.run("main:app", reload=True)
