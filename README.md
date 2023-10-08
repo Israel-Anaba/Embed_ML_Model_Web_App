@@ -22,15 +22,20 @@ This project aims to:
 Below is a preview showcasing the app's appearance.
 
 <div style="display: flex; align-items: center;">
-    <div style="flex: 50%; text-align: center;">
+    <div style="flex: 33.33%; text-align: center;">
         <p>Top</p>
         <img src="Screenshots/Fast1.png" alt="Top" width="90%"/>
     </div>
-    <div style="flex: 50%; text-align: center;">
-        <p>Buttom</p>
-        <img src="Screenshots/Fast4.png" alt="Down" width="90%"/>
+    <div style="flex: 33.33%; text-align: center;">
+        <p>Middle</p>
+        <img src="Screenshots/Fast3.png" alt="Middle" width="90%"/>
+    </div>
+    <div style="flex: 33.33%; text-align: center;">
+        <p>Bottom</p>
+        <img src="Screenshots/Fast4.png" alt="Bottom" width="90%"/>
     </div>
 </div>
+
 
 ## 🛠️ Technologies Used
 
@@ -45,10 +50,10 @@ To install and run this project, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/my-awesome-ml-web-app.git
+git clone https://github.com/Israel-Anaba/Embed_ML_Model_Web_App
 
 # Change directory
-cd my-awesome-ml-web-app
+cd Embed_ML_Model_Web_App
 
 # Install dependencies
 pip install -r requirements.txt
@@ -74,10 +79,10 @@ Dockerize the application with the following commands:
 
 ```bash
 # Build the Docker image
-docker build -t my-awesome-ml-app .
+docker build -t app_name-app .
 
 # Run the Docker container
-docker run -p 80:80 my-awesome-ml-app
+docker run -p 80:80 app_name-app
 ```
 
 ## 🌐 Deployment
@@ -99,6 +104,11 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## Acknowledgement 🥇
+
+I would like to express my gratitude to the Azubi Africa Data Analyst Program for their support and for offering valuable projects as part of this program.
+
 
 ## 📧 Contact
 
