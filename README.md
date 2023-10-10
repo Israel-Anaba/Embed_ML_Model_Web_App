@@ -73,6 +73,9 @@ For detailed documentation and API usage, visit [http://localhost:8000/docs](htt
 
 ## 📦 Dockerization
 
+First create a Dockerfile, check documention : [Docker Official Documentation - Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+
+
 Dockerize the application with the following commands:
 
 ```bash
