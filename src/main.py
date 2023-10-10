@@ -14,8 +14,8 @@ warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
 
 # Create a FastAPI instance with title and description
 app = FastAPI(
-    title="Sepsis Prediction API",
-    description="An API for predicting sepsis status based on a patient's medical record. \
+    title="Sepsis Prediction APP",
+    description="An APP for predicting sepsis status based on a patient's medical record. \
                 This API accepts medical record features as input and provides predictions \
                 for the likelihood of sepsis. The features include:\n\n"
                 "- PRG (Plasma Glucose): Plasma glucose levels.\n"
@@ -26,7 +26,7 @@ app = FastAPI(
                 "- M11 (Body Mass Index): Body mass index (weight in kg / (height in m)^2).\n"
                 "- BD2 (Blood Work Result-4): Blood work result 4 (mu U/ml).\n"
                 "- Age: Patient's age in years.\n\n"
-                "Use this API to assess sepsis risk and make informed medical decisions.",
+                "Use this APP to assess sepsis risk and make informed medical decisions.",
 )
 
 
@@ -62,7 +62,7 @@ class SepsisInput(BaseModel):
 # Root endpoint to provide a response at the root URL
 @app.get("/")
 async def read_root():
-    return {"message": "Welcome to the Sepsis Prediction API!"}    
+    return {"message": "Welcome to the Sepsis Prediction APP!"}    
 
 
 # Set endpoint to make sepsis predictions
