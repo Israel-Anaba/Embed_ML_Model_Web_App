@@ -7,7 +7,6 @@ This project focuses on embedding a Machine Learning model into a web applicatio
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg)](https://jupyter.org/)
 [![Hugging Face Deployment](https://img.shields.io/badge/Hugging%20Face-Deployed-brightgreen)](https://huggingface.co/my-awesome-ml-web-app)
 
-
 ## 📖 Overview
 
 This project aims to:
@@ -35,7 +34,6 @@ Below is a preview showcasing the app's appearance.
         <img src="Screenshots/Fast4.png" alt="Bottom" width="90%"/>
     </div>
 </div>
-
 
 ## 🛠️ Technologies Used
 
@@ -67,7 +65,7 @@ uvicorn main:app --reload
 Here's how you can use the project:
 
 1. Access the web application at [http://localhost:8000](http://localhost:8000) in your browser.
-2. Interact with the ML model through the user-friendly interface.
+2. Interact with the ML model through the user-friendly interface with features like the patients : Plasma glucose level,Body mass index,Blood pressure levels etc
 
 ## 📄 Documentation
 
@@ -87,15 +85,28 @@ docker run -p 80:80 app_name-app
 
 ## 🌐 Deployment
 
-You can deploy this project on Hugging Face for wider accessibility.
+The APP was further deployed on huggingface. You can interact with the app via huggingface following the steps below.
+
+### Usage Instructions
+
+To access the sepsis prediction app, you will need to be signed in to Hugging Face:
+
+1. If you don't have a Hugging Face account, you can sign up for free at [Hugging Face](https://huggingface.co/signup).
+
+2. After signing in, you can access the app using the following URL:
+🤖[https://gr8testgad-1-sepsis-prediction.hf.space/docs](https://gr8testgad-1-sepsis-prediction.hf.space/docs)
+
+Please note that you need to be signed in to Hugging Face to utilize this service. If you encounter any issues or have questions, feel free to checkout the huggingface documentation [Huggingface Documentation](https://huggingface.co/docs) for assistance.
+
+<!-- gr8testgad-1-sepsis-prediction.hf.space -->
 
 ## Author
 
-| Name | Article Link | Github  |
-| ---- | ------------ | -------- |
-|      |              |          |
-|      |              |          |
-|      |              |          |
+| Name | Article Link | Github |
+| ---- | ------------ | ------ |
+|      |              |        |
+|      |              |        |
+|      |              |        |
 
 ## 📝 License
 
@@ -108,7 +119,6 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## Acknowledgement 🥇
 
 I would like to express my gratitude to the Azubi Africa Data Analyst Program for their support and for offering valuable projects as part of this program.
-
 
 ## 📧 Contact
 
