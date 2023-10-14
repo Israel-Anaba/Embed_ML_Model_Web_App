@@ -105,7 +105,7 @@ Please note that you need to be signed in to Hugging Face to utilize this servic
 
 | Name | Article Link | Github |
 | ---- | ------------ | ------ |
-|      |              |        |
+|Israel Anaba Ayamga    |              |[Israel_Anaba](https://github.com/Israel-Anaba)        |
 |      |              |        |
 |      |              |        |
 
