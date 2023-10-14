@@ -1,6 +1,6 @@
 # Embed_ML_Model_Web_App 🚀
 
-This project focuses on embedding a Machine Learning model into a web application like FastAPI.It also includes Dockerization and deployment on Hugging Face. It involves integrating advanced ML algorithms and models into a user-friendly web interface, allowing users to leverage the power of machine learning through an accessible and interactive online platform.
+This project focuses on embedding a Machine Learning model into a web application using FastAPI, including Dockerization and deployment on Hugging Face. The primary aim is to develop a predictive model for sepsis risk in ICU patients, enhancing healthcare professionals' capabilities through an accessible online platform.
 
 [![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-311/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -75,7 +75,6 @@ For detailed documentation and API usage, visit [http://localhost:8000/docs](htt
 
 First create a Dockerfile, check documention : [Docker Official Documentation - Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 
-
 Dockerize the application with the following commands:
 
 ```bash
@@ -95,9 +94,8 @@ The APP was further deployed on huggingface. You can interact with the app via h
 To access the sepsis prediction app, you will need to be signed in to Hugging Face:
 
 1. If you don't have a Hugging Face account, you can sign up for free at [Hugging Face](https://huggingface.co/signup).
-
 2. After signing in, you can access the app using the following URL:
-🤖[https://gr8testgad-1-sepsis-prediction.hf.space/docs](https://gr8testgad-1-sepsis-prediction.hf.space/docs)
+   🤖[https://gr8testgad-1-sepsis-prediction.hf.space/docs](https://gr8testgad-1-sepsis-prediction.hf.space/docs)
 
 Please note that you need to be signed in to Hugging Face to utilize this service. If you encounter any issues or have questions, feel free to checkout the huggingface documentation [Huggingface Documentation](https://huggingface.co/docs) for assistance.
 
@@ -121,8 +119,8 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## Acknowledgement 🥇
 
-I would like to express my gratitude to the Azubi Africa Data Analyst Program for their support and for offering valuable projects as part of this program.
+I would like to express my gratitude to the [Azubi Africa Data Analyst Program](https://www.azubiafrica.org/data-analytics) for their support and for offering valuable projects as part of this program. Not forgeting my scrum masters on this project [Rachel Appiah-Kubi](https://www.linkedin.com/in/racheal-appiah-kubi/) & [Emmanuel Koupoh](https://github.com/eaedk)
 
 ## 📧 Contact
 
-For questions or feedback, please contact [Your Name](mailto:your.email@example.com).
+For questions or feedback, please contact [Israel Anaba Ayamga](officicalanaba@gmail.com).
