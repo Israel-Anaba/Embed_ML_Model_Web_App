@@ -105,7 +105,7 @@ Please note that you need to be signed in to Hugging Face to utilize this servic
 
 | Name | Article Link | Github |
 | ---- | ------------ | ------ |
-|Israel Anaba Ayamga    |              |[Israel_Anaba](https://github.com/Israel-Anaba)        |
+|Israel Anaba Ayamga    |[FastAPI Unleashed: Integrating Machine Learning Models with Ease](https://medium.com/@israelanaba/fastapi-unleashed-integrating-machine-learning-models-with-ease-ad00bf5b8b06)              |[Israel_Anaba](https://github.com/Israel-Anaba)        |
 |      |              |        |
 |      |              |        |
 
